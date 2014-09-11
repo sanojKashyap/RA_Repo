@@ -24,6 +24,12 @@
 {
     return @"sanoj";
 }
+
+
+-(NSString*)returnLastName
+{
+    return @"Kashyap";
+}
 /*
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.
