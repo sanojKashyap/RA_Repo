@@ -16,6 +16,7 @@
     if (self) {
         // Initialization code
         [self returnLastName];
+        [self returnName];
     }
     return self;
 }
