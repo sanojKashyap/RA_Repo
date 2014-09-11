@@ -20,6 +20,10 @@
     }
     return self;
 }
+-(NSString*)returnFullName
+{
+    return @"sanoj";
+}
 
 
 -(NSString*)returnName
