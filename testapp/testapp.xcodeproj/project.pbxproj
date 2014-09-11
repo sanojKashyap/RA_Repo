@@ -21,6 +21,7 @@
 		B6D28BFE19A5171A00210A27 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D28BE019A5171A00210A27 /* UIKit.framework */; };
 		B6D28C0619A5171A00210A27 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6D28C0419A5171A00210A27 /* InfoPlist.strings */; };
 		B6D28C0819A5171A00210A27 /* testappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D28C0719A5171A00210A27 /* testappTests.m */; };
+		B6DC203819C2290800360986 /* sampleView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DC203719C2290800360986 /* sampleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		B6D28C0319A5171A00210A27 /* testappTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testappTests-Info.plist"; sourceTree = "<group>"; };
 		B6D28C0519A5171A00210A27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B6D28C0719A5171A00210A27 /* testappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testappTests.m; sourceTree = "<group>"; };
+		B6DC203619C2290800360986 /* sampleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sampleView.h; sourceTree = "<group>"; };
+		B6DC203719C2290800360986 /* sampleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sampleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 				B6D28BEC19A5171A00210A27 /* AppDelegate.m */,
 				B6D28BEE19A5171A00210A27 /* Main.storyboard */,
 				B6D28BF119A5171A00210A27 /* ViewController.h */,
+				B6DC203619C2290800360986 /* sampleView.h */,
+				B6DC203719C2290800360986 /* sampleView.m */,
 				B6D28BF219A5171A00210A27 /* ViewController.m */,
 				B6D28BF419A5171A00210A27 /* Images.xcassets */,
 				B6D28BE319A5171A00210A27 /* Supporting Files */,
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6DC203819C2290800360986 /* sampleView.m in Sources */,
 				B6D28BF319A5171A00210A27 /* ViewController.m in Sources */,
 				B6D28BED19A5171A00210A27 /* AppDelegate.m in Sources */,
 				B6D28BE919A5171A00210A27 /* main.m in Sources */,
@@ -456,6 +462,7 @@
 				B6D28C0D19A5171A00210A27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6D28C0E19A5171A00210A27 /* Build configuration list for PBXNativeTarget "testappTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +471,7 @@
 				B6D28C1019A5171A00210A27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
